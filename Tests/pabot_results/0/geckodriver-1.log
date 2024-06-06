@@ -1,0 +1,13 @@
+1717668157774	geckodriver	INFO	Listening on 127.0.0.1:54735
+1717668160824	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54736" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\barbiedhamija\\AppData\\Local\\Temp\\rust_mozprofileiVQK5Q"
+1717668161550	Marionette	INFO	Marionette enabled
+1717668161560	Marionette	INFO	Listening on port 54759
+WebDriver BiDi listening on ws://localhost:54736
+Read port: 54759
+1717668162144	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\barbiedhamija\\AppData\\Local\\Temp\\rust_mozprofileiVQK5Q\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54736/devtools/browser/7b75384f-599f-4eab-9f68-0e60842b0821
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.saucedemo.com"
+1717668166676	Marionette	INFO	Stopped listening on port 54759
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 694: TypeError: this.tablesData[table] is undefined
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1109: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\barbiedhamija\AppData\Local\Temp\rust_mozprofileiVQK5Q\protections.sqlite
