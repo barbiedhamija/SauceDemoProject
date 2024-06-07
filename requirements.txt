@@ -1,0 +1,6 @@
+pip==24.0
+robotframework==7.0
+robotframework-seleniumlibrary==6.2.0
+robotframework-pabot==2.18.0
+robotframework-pythonlibcore==4.3.0
+robotframework-stacktrace==0.4.1
