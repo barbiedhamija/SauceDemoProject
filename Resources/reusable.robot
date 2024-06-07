@@ -1,5 +1,4 @@
 *** Settings ***
-Library       SeleniumLibrary
 Library    SeleniumLibrary
 Library    Collections
 Library    String
