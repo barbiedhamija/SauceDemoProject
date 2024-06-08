@@ -15,7 +15,7 @@ Successful Customer purchases Products
     Proceeds to checkout the purchase    ${first}    ${last}    ${zip}
     Purchase should be successful
 
-Customer is able to sort the products successfully
+Customer is able to sort the products with Prices(Low to High) successfully
     Customer attempts login    ${std_username}    ${password}
-    Customer sorts the product in product view
-    products are ordered according to the chosen sort method
+    Customer selects the sort option Prices(low to high) in product view
+    Products should be sorted according to the price(low to high)
