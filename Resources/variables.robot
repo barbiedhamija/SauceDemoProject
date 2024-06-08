@@ -6,4 +6,3 @@ ${browser}    Chrome
 ${first}    Barbie
 ${last}    Dhamija
 ${zip}    00420
-${value}    lohi
