@@ -5,7 +5,7 @@ Library    String
 
 *** Variables ***
 ${url}    https://www.saucedemo.com/
-${prices}    //div[@class='inventory_item_price']
+${prices}   css:div.inventory_item_price
 
 *** Keywords ***
 Open url in browser and maximize window
