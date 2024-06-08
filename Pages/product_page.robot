@@ -18,7 +18,7 @@ Customer adds multiple products to the shopping cart
     END
     Click Link        ${cart_link}
 
-Customer selects the sort option Prices(low to high) in product view
+Customer selects the sort option Price(low to high) in product view
     ${before_sort_list}=    Create a list of prices
     Log    ${before_sort_list}
     Set Global Variable    ${before_sort_list}
